@@ -92,12 +92,11 @@ Explore a live, web-based interface to query, filter, and visualize:
 - **Time-series sentiment flows**  
 - **Engagement vs. toxicity scatter plots**  
 - **Subreddit and board-specific breakdowns**  
-![image](https://github.com/user-attachments/assets/9c549762-9d03-4703-87ac-02145804475b)
-![image](https://github.com/user-attachments/assets/ff59d522-94aa-4b24-bd8c-50ca40a7f89f)
-![image](https://github.com/user-attachments/assets/7219f93d-2981-4339-961a-918963fd6880)
-![image](https://github.com/user-attachments/assets/7de867e1-a341-46ce-aa3e-6a04782e84be)
-![image](https://github.com/user-attachments/assets/78247847-9ea0-4300-9288-16fbe96340a2)
-![image](https://github.com/user-attachments/assets/a3204ad0-b59c-4236-87f3-0e9b474de69f)
+![image](https://github.com/user-attachments/assets/48891be6-5ad2-482f-8f1d-e45071b7717e)
+![image](https://github.com/user-attachments/assets/e87c9060-220b-444c-b75e-49a31a2dcd42)
+![image](https://github.com/user-attachments/assets/2cd132cf-0d13-4a03-a753-f82d792e14e4)
+![image](https://github.com/user-attachments/assets/32a162ad-101c-4e2e-93c7-b4f3ae2b0609)
+![image](https://github.com/user-attachments/assets/6c324fb0-a06b-4061-bc29-5d1ee80c367f)
 
 ---
 
