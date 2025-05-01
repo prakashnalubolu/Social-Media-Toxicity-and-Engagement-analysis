@@ -43,7 +43,7 @@ Our robust crawler ingests real-time posts and comments from:
 
 ### Preprocessing & Storage
 - **Cleaning**: Remove incomplete records, normalize timestamps, and strip HTML markdown.  
-- **Toxicity Scoring**: Leverage the ModerateHatespeech API (0–1 scale).  
+- **Toxicity Scoring**: Used the ModerateHateSpeech API to classify posts and comments (score range: 0–1)  
 - **Storage**: PostgreSQL with TimescaleDB extension for efficient time-series querying.
 
 <details>
@@ -61,6 +61,13 @@ Our robust crawler ingests real-time posts and comments from:
 - **Toxicity Distribution**: 10% flagged posts on Reddit vs. 19% on 4chan.  
 - **Time-Series Trends**: Activity spikes during major sports events (e.g., playoffs, finals).
 
+### Sentiment & Engagement Analysis
+- Used NLP libraries (NLTK, Hugging Face Transformers) to analyze emotional tone.
+- Toxic posts labeled as:
+- flag if toxicity > 0.5 (soft threshold)
+- True in Toxic_Flag if toxicity > 0.9 (strict classification)
+
+High engagement = Top quartile in upvotes/comments
 ---
 
 ## Stage 3: Insights & Findings
