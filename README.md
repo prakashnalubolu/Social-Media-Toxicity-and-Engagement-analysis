@@ -63,11 +63,9 @@ Our robust crawler ingests real-time posts and comments from:
 
 ### Sentiment & Engagement Analysis
 - Used NLP libraries (NLTK, Hugging Face Transformers) to analyze emotional tone.
-- Toxic posts labeled as:
-- flag if toxicity > 0.5 (soft threshold)
-- True in Toxic_Flag if toxicity > 0.9 (strict classification)
-
+- Toxic posts labeled as **flag** if toxicity > 0.5 (soft threshold). **True** in Toxic_Flag if toxicity > 0.9 (strict classification)
 High engagement = Top quartile in upvotes/comments
+
 ---
 
 ## Stage 3: Insights & Findings
